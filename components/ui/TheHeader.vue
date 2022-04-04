@@ -1,13 +1,13 @@
 <template>
-  <div class="flex justify-around">
+  <div class="flex justify-around p-10 bg-orange-600">
     <div>
-      <a href="/"><img src="" alt="W.E.B. Inc." /></a>
+      <a href="/"><img class="hover:text-white" src="" alt="W.E.B. Inc." /></a>
     </div>
     <div>
-      <nav>
-        <NuxtLink to="/about">About</NuxtLink>
-        <NuxtLink to="/blog">Blog</NuxtLink>
-        <NuxtLink to="/contact">Contact</NuxtLink>
+      <nav class="flex justify-around gap-36">
+        <NuxtLink class="hover:text-white" to="/about">About</NuxtLink>
+        <NuxtLink class="hover:text-white" to="/blog">Blog</NuxtLink>
+        <NuxtLink class="hover:text-white" to="/contact">Contact</NuxtLink>
       </nav>
     </div>
   </div>
