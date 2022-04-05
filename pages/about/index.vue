@@ -1,9 +1,9 @@
 <template>
-  <div v-if="data">
+  <div>
     <h1 class="flex justify-center text-5xl">THIS IS THE ABOUT PAGE</h1>
-    <div class="page-content">
+    <div class="page-content" v-if="data">
       <div class="title">
-        <h1>{{ data.companyname }}</h1>
+        <!-- <h1>{{ data.companyname }}</h1> -->
         <h2>{{ data.subtitle }}</h2>
         <p>{{ data.description }}</p>
       </div>
@@ -26,3 +26,15 @@
     </div>
   </div>
 </template>
+<script setup>
+import { ref, onMounted } from "vue";
+// fetch data from storyblok
+  const data = ref(null);
+  onMounted(async () => {
+    data.value = await fetch(
+      "https://api.storyblok.com/v2/cdn/stories/api-content?version=draft&token=OrQeGQgBRjqxzzvELiOSFAtt&cv=1649094285"
+    )
+      .then((response) => response.json())
+      .then(({ story }) => story.content);
+  });
+  </script>
