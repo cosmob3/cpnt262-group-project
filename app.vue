@@ -2,7 +2,7 @@
   <header></header>
   <TheHeader />
   <main>
-    <div class="w-screen">
+    <div class="h-screen">
       <NuxtPage />
     </div>
   </main>
