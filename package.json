@@ -10,6 +10,8 @@
     "nuxt3": "latest"
   },
   "dependencies": {
-    "@storyblok/vue": "^6.0.1"
+    "@storyblok/nuxt": "^3.0.0-beta.3",
+    "@storyblok/vue": "^6.0.1",
+    "axios": "^0.21.4"
   }
 }
