@@ -5,8 +5,8 @@
         ><img class="text-white text-4xl" src="" alt="W.E.B. Inc."
       /></a>
     </div>
-    <div>
-      <nav class="flex justify-around gap-36">
+    <div class="sm:flex sm:flex-col">
+      <nav class="flex sm:flex-col md:flex-row justify-around md:gap-36">
         <NuxtLink class="text-gray-500 text-2xl hover:text-white" to="/about"
           >About</NuxtLink
         >

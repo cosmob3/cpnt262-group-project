@@ -7,6 +7,6 @@
     </div>
   </main>
   <footer>
-    <TheFooter />
+    <!-- <TheFooter /> -->
   </footer>
 </template>
