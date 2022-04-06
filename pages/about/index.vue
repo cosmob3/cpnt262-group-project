@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-400">
+  <div class="bg-gray-700">
     <h1 class="flex justify-center text-5xl">THIS IS THE ABOUT PAGE</h1>
     <div class="page-content" v-if="data">
       <div class="title text-center w-full">
@@ -19,11 +19,11 @@
           "
         >
           <div class="wrapper">
-            <img :src="data.companyimage.filename" alt="" />
+            <img class="rounded-2xl" :src="data.companyimage.filename" alt="" />
           </div>
 
           <div class="paragraph w-full my-auto mx-auto shadow-xl rounded ">
-            <p class="text-2xl leading-normal text-lime-200 p-10">{{ data.description }}</p>
+            <p class="font-mono text-2xl leading-normal text-lime-300 p-10">{{ data.description }}</p>
           </div>
         </div>
       </div>
@@ -38,6 +38,7 @@
           lg:grid-cols-3
           xl:grid-cols-3
           gap-40
+          text-white
         "
       >
         <div class="card1 rounded overflow-hidden shadow-lg">
