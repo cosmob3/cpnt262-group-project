@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-500">
+  <div class="bg-slate-400">
     <h1 class="flex justify-center text-5xl">THIS IS THE ABOUT PAGE</h1>
     <div class="page-content" v-if="data">
       <div class="title text-center w-full">
