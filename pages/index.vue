@@ -16,7 +16,16 @@
       :about-description="`I'm also a big extreme sports enthusiast. When I'm not hanging out with my family or at the computer you can find me cruising around on my onewheel or hitting the slopes on my snowboard when it's cold. `"
     >
       <template #about-image>
-        <p class="text-white">HELLO WORLD</p>
+        <img
+          class="w-10/12 self-center"
+          src="https://images.pexels.com/photos/5097418/pexels-photo-5097418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="image"
+        />
+      </template>
+      <template #links>
+        <NuxtLink class="px-10 text-white text-3xl sm:text-xl" to="/about"
+          >Learn more about me --></NuxtLink
+        >
       </template>
     </AbooutCard>
   </div>

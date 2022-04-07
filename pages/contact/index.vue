@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h1 class="flex justify-center text-5xl">THIS IS THE COURSES PAGE</h1>
+    <h1 class="flex justify-center text-5xl">THIS IS THE CONTACT PAGE</h1>
   </div>
 </template>

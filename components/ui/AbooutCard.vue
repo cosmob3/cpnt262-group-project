@@ -1,15 +1,16 @@
 <template>
-  <section class="grid grid-cols-3 bg-gray-700">
-    <div class="col-span-1">
-      <slot name="aboutImage"></slot>
+  <section class="grid sm:grid-cols-1 md:grid-cols-3 bg-gray-700 sm:gap-10">
+    <div class="flex flex-col col-span-1">
+      <slot name="about-image"></slot>
     </div>
-    <div class="grid grid-cols-1 gap-10 col-span-2">
-      <h2 class="sm:text-xl md:text-5xl text-white mx-8 px-72">
+    <div class="grid grid-cols-1 sm:col-span-1 md:col-span-2 items-center">
+      <h2 class="sm:text-3xl md:text-6xl text-white p-10">
         {{ aboutTitle }}
       </h2>
-      <p class="sm:text-lg md:text-2xl text-gray-900 mx-8 px-72">
+      <p class="sm:text-2xl md:text-4xl text-gray-900 p-10">
         {{ aboutDescription }}
       </p>
+      <slot name="links"></slot>
     </div>
   </section>
 </template>
