@@ -22,11 +22,7 @@
       </div>
     </div>
     <div class="col-span-2">
-      <img
-        class="sm:w-screen md:w-3/4"
-        src="https://res.cloudinary.com/kentcdodds-com/image/upload/w_918,q_auto,f_auto/kentcdodds.com/illustrations/kody-flying_yellow"
-        alt="Hero Image"
-      />
+      <slot name="hero-image"></slot>
     </div>
   </div>
 </template>
