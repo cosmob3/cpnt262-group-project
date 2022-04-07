@@ -17,16 +17,25 @@
     >
       <template #about-image>
         <img
-          class="w-10/12 self-center"
+          class="w-10/12 self-center rounded-xl"
           src="https://images.pexels.com/photos/5097418/pexels-photo-5097418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
           alt="image"
         />
       </template>
       <template #links>
-        <NuxtLink class="px-10 text-white text-3xl sm:text-xl" to="/about"
+        <NuxtLink
+          class="px-10 sm:pt-10 text-white md:text-3xl sm:text-xl"
+          to="/about"
           >Learn more about me --></NuxtLink
         >
       </template>
     </AbooutCard>
+    <BlogSection>
+      <template #links
+        ><NuxtLink class="px-10 text-white text-3xl sm:text-xl" to="/blog"
+          >See the full blog --></NuxtLink
+        ></template
+      >
+    </BlogSection>
   </div>
 </template>

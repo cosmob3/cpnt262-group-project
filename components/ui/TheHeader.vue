@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-around p-10 bg-gray-700">
+  <div class="flex justify-around p-10 bg-gray-800">
     <div>
       <a href="/"
         ><img class="text-white text-4xl" src="" alt="W.E.B. Inc."
