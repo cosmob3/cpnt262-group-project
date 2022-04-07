@@ -32,7 +32,9 @@
     </AbooutCard>
     <BlogSection>
       <template #links
-        ><NuxtLink class="px-10 text-white md:text-3xl sm:text-xl" to="/blog"
+        ><NuxtLink
+          class="flex flex-col justify-center px-10 text-white md:text-3xl sm:text-xl"
+          to="/blog"
           >See the full blog --></NuxtLink
         ></template
       >
