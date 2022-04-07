@@ -7,7 +7,7 @@
         <h1 class="sm:text-3xl md:text-6xl text-white m-6">{{ heroTitle }}</h1>
         <slot name="hero-description"></slot>
       </div>
-      <div class="flex flex-col gap-10">
+      <div class="flex flex-col justify-between gap-10">
         <NuxtLink
           class="bg-white text-gray-900 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
           to="/blog"
