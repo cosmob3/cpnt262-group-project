@@ -9,11 +9,13 @@
         </p>
       </template>
       <template #hero-image>
-        <img
-          class="sm:w-screen md:w-3/5"
-          src="https://res.cloudinary.com/kentcdodds-com/image/upload/w_550,q_auto,f_auto/kentcdodds.com/illustrations/skis_z5lkc3"
-          alt="Blog Hero"
-        />
+        <div class="flex justify-center">
+          <img
+            class="sm:w-screen md:w-1/2"
+            src="https://res.cloudinary.com/kentcdodds-com/image/upload/w_550,q_auto,f_auto/kentcdodds.com/illustrations/skis_z5lkc3"
+            alt="Blog Hero"
+          />
+        </div>
       </template>
     </TheHero>
     <FeaturedCard
