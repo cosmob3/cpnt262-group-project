@@ -38,7 +38,7 @@
 
 - Design: Figma Mock-up
 - Layout: Figjam Wireflow
-- **API goes here**
+- API/CMS: Storyblok
 - CSS Framework: Tailwindcss
 - JS Frameworks: VueJS in NuxtJS (Used Nuxt-3)
 
@@ -164,7 +164,7 @@ The following pages
   - img
 
 Home Page
-About Page - Local API?
+About Page - Use Storyblok
 Contact Page
 Blog Page
 
