@@ -52,7 +52,7 @@
       <div class="flex sm:mx-12 md:mx-64 pt-10">
         <button
           type="submit"
-          class="sm:py-6 sm:px-16 md:px-40 rounded-full text-gray-700 bg-white"
+          class="sm:py-6 sm:px-16 md:px-40 rounded-full text-gray-700 bg-white hover:bg-gray-400"
         >
           Submit
         </button>

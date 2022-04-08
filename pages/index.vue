@@ -14,13 +14,13 @@
       </template>
       <template #links>
         <NuxtLink
-          class="bg-white text-gray-700 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
+          class="bg-white hover:bg-slate-300 text-gray-700 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
           to="/blog"
           >Read the Blog
         </NuxtLink>
 
         <NuxtLink
-          class="bg-gray-800 text-white focus:border-blue-400 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
+          class="bg-gray-700 hover:bg-gray-900 text-white focus:border-blue-400 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
           to="/about"
           >About us
         </NuxtLink>
@@ -39,7 +39,7 @@
       </template>
       <template #links>
         <NuxtLink
-          class="px-10 sm:pt-10 text-white md:text-3xl sm:text-xl"
+          class="px-10 sm:pt-10 hover:text-black text-white md:text-3xl sm:text-xl"
           to="/about"
           >Learn more about me --></NuxtLink
         >
@@ -48,7 +48,7 @@
     <BlogSection>
       <template #links
         ><NuxtLink
-          class="flex flex-col justify-center px-10 text-white md:text-3xl sm:text-xl"
+          class="flex flex-col justify-center px-10 hover:text-black text-white md:text-3xl sm:text-xl"
           to="/blog"
           >See the full blog --></NuxtLink
         ></template

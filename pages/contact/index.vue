@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen">
+  <div>
     <TheHero :hero-title="'Send us an email!'">
       <template #hero-description>
         <p
@@ -18,6 +18,6 @@
         </div>
       </template>
     </TheHero>
-    <AppForm></AppForm>
+    <AppForm />
   </div>
 </template>
