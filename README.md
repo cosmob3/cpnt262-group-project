@@ -193,7 +193,8 @@ Blog Page
 - Went for lunch and when I came back I started the server back up and the issue was just fixed... 'gotta love technology'
 - Trying to add links to navbar with as little code as possible
 
-![NuxtLinks](./assets/images/Version%204%20NuxtLinks.png)
+![Version 4 NuxtLinks](https://user-images.githubusercontent.com/97326786/162542281-c50b29d4-2245-438f-9027-57ef4832d75e.png)
+
 
 - But was having a hard time figuring it out, so for the sake of time I'll just do all my links as separate Nuxt links8
 - Starting on hero section
