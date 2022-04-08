@@ -1,8 +1,6 @@
 <template>
   <div class="h-full">
-    <TheHero
-      :hero-title="'Helping people make the world a better place through quality software.'"
-    >
+    <TheHero :hero-title="'Welcome to your No. 1 stop for all your tech needs'">
       <template #hero-image>
         <div class="flex justify-center">
           <img
@@ -27,13 +25,13 @@
       </template>
     </TheHero>
     <AbooutCard
-      :about-title="`Hi, I'm Kent C. Dodds. I help people make the world better through quality software.`"
-      :about-description="`I'm also a big extreme sports enthusiast. When I'm not hanging out with my family or at the computer you can find me cruising around on my onewheel or hitting the slopes on my snowboard when it's cold. `"
+      :about-title="`Hi, we are W.E.B. Inc. and we are here to solve all of you technology related needs`"
+      :about-description="`We are a team of junior developers with expertise in different areas of this industry. Whatever we don't know, we can learn and work with you to make sure everyone involve leaves satisfied.`"
     >
       <template #about-image>
         <img
           class="w-10/12 self-center rounded-xl"
-          src="https://images.pexels.com/photos/5097418/pexels-photo-5097418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          src="https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="image"
         />
       </template>
@@ -41,7 +39,7 @@
         <NuxtLink
           class="px-10 sm:pt-10 hover:text-black text-white md:text-3xl sm:text-xl"
           to="/about"
-          >Learn more about me --></NuxtLink
+          >Learn more about us --></NuxtLink
         >
       </template>
     </AbooutCard>

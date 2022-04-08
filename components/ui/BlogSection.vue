@@ -15,7 +15,7 @@
       <slot name="links"></slot>
     </div>
     <div
-      class="flex sm:flex-col md:flex-row sm:gap-20 bg-gray-800 py-10 md:px-36 bg-gray-800"
+      class="flex sm:flex-col md:grid md:grid-cols-3 sm:gap-20 bg-gray-800 py-10 md:px-36 bg-gray-800"
     >
       <AppCard
         :date="'November 30th, 2020 -- 3 min read'"
@@ -24,31 +24,31 @@
         <template #card-image>
           <img
             class="rounded-xl"
-            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            src="https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Card Image"
           />
         </template>
       </AppCard>
       <AppCard
         :date="'July 19th, 2020 -- 8 min read'"
-        :articleTitle="'useEffect vs useLayoutEffect'"
+        :articleTitle="'Security 101'"
       >
         <template #card-image>
           <img
             class="rounded-xl"
-            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            src="https://images.pexels.com/photos/5935791/pexels-photo-5935791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Card Image"
           />
         </template>
       </AppCard>
       <AppCard
-        :date="'July 19th, 2020 -- 8 min read'"
-        :articleTitle="'useEffect vs useLayoutEffect'"
+        :date="'June 6th, 2020 -- 10 min read'"
+        :articleTitle="'Why error handling can save you time'"
       >
         <template #card-image>
           <img
             class="rounded-xl"
-            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            src="https://images.pexels.com/photos/5240544/pexels-photo-5240544.jpeg"
             alt="Card Image"
           />
         </template>
