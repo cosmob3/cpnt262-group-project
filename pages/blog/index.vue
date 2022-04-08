@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-gray-800">
     <TheHero :hero-title="'Learn development with great articles.'">
       <template #hero-description>
         <p
@@ -28,5 +28,125 @@
         />
       </template>
     </FeaturedCard>
+    <div
+      class="flex sm:flex-col md:flex-row sm:gap-20 bg-gray-800 py-10 md:px-36 bg-gray-800"
+    >
+      <AppCard
+        :date="'July 19th, 2020 -- 8 min read'"
+        :articleTitle="'useEffect vs useLayoutEffect'"
+      >
+        <template #card-image>
+          <img
+            class="rounded-xl"
+            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            alt="Card Image"
+          />
+        </template>
+      </AppCard>
+      <AppCard
+        :date="'July 19th, 2020 -- 8 min read'"
+        :articleTitle="'useEffect vs useLayoutEffect'"
+      >
+        <template #card-image>
+          <img
+            class="rounded-xl"
+            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            alt="Card Image"
+          />
+        </template>
+      </AppCard>
+      <AppCard
+        :date="'July 19th, 2020 -- 8 min read'"
+        :articleTitle="'useEffect vs useLayoutEffect'"
+      >
+        <template #card-image>
+          <img
+            class="rounded-xl"
+            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            alt="Card Image"
+          />
+        </template>
+      </AppCard>
+    </div>
+    <div
+      class="flex sm:flex-col md:flex-row sm:gap-20 bg-gray-800 py-10 md:px-36 bg-gray-800"
+    >
+      <AppCard
+        :date="'November 30th, 2020 -- 3 min read'"
+        :articleTitle="'useEffect vs useLayoutEffect'"
+      >
+        <template #card-image>
+          <img
+            class="rounded-xl"
+            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            alt="Card Image"
+          />
+        </template>
+      </AppCard>
+      <AppCard
+        :date="'July 19th, 2020 -- 8 min read'"
+        :articleTitle="'useEffect vs useLayoutEffect'"
+      >
+        <template #card-image>
+          <img
+            class="rounded-xl"
+            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            alt="Card Image"
+          />
+        </template>
+      </AppCard>
+      <AppCard
+        :date="'July 19th, 2020 -- 8 min read'"
+        :articleTitle="'useEffect vs useLayoutEffect'"
+      >
+        <template #card-image>
+          <img
+            class="rounded-xl"
+            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            alt="Card Image"
+          />
+        </template>
+      </AppCard>
+    </div>
+    <div
+      class="flex sm:flex-col md:flex-row sm:gap-20 bg-gray-800 py-10 md:px-36 bg-gray-800"
+    >
+      <AppCard
+        :date="'November 30th, 2020 -- 3 min read'"
+        :articleTitle="'useEffect vs useLayoutEffect'"
+      >
+        <template #card-image>
+          <img
+            class="rounded-xl"
+            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            alt="Card Image"
+          />
+        </template>
+      </AppCard>
+      <AppCard
+        :date="'July 19th, 2020 -- 8 min read'"
+        :articleTitle="'useEffect vs useLayoutEffect'"
+      >
+        <template #card-image>
+          <img
+            class="rounded-xl"
+            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            alt="Card Image"
+          />
+        </template>
+      </AppCard>
+      <AppCard
+        :date="'July 19th, 2020 -- 8 min read'"
+        :articleTitle="'useEffect vs useLayoutEffect'"
+      >
+        <template #card-image>
+          <img
+            class="rounded-xl"
+            src="https://images.pexels.com/photos/11625055/pexels-photo-11625055.jpeg?cs=srgb&dl=pexels-alexander-kozlov-11625055.jpg&fm=jpg"
+            alt="Card Image"
+          />
+        </template>
+      </AppCard>
+    </div>
   </div>
 </template>
