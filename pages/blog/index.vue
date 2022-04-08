@@ -16,5 +16,17 @@
         />
       </template>
     </TheHero>
+    <FeaturedCard
+      :feature-title="'How to use React Context effectively'"
+      :date="'June 5th, 2021 -- 11 min read'"
+    >
+      <template #feature-image>
+        <img
+          class="rounded-xl md:w-1/2"
+          src="https://images.pexels.com/photos/4900909/pexels-photo-4900909.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="Featured Image"
+        />
+      </template>
+    </FeaturedCard>
   </div>
 </template>

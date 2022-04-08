@@ -1,6 +1,5 @@
 <template>
   <div class="bg-gray-800">
-    <h1 class="flex justify-center text-5xl">THIS IS THE ABOUT PAGE</h1>
     <div class="page-content" v-if="data">
       <div class="title text-center w-full">
         <h1 class="font-mono text-7xl text-orange-500">
