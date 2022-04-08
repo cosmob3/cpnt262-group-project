@@ -6,7 +6,4 @@
       <NuxtPage />
     </div>
   </main>
-  <footer>
-    <!-- <TheFooter /> -->
-  </footer>
 </template>

@@ -10,6 +10,19 @@
           alt="Hero Image"
         />
       </template>
+      <template #links>
+        <NuxtLink
+          class="bg-white text-gray-700 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
+          to="/blog"
+          >Read the Blog
+        </NuxtLink>
+
+        <NuxtLink
+          class="bg-gray-800 text-white focus:border-blue-400 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
+          to="/about"
+          >About us
+        </NuxtLink>
+      </template>
     </TheHero>
     <AbooutCard
       :about-title="`Hi, I'm Kent C. Dodds. I help people make the world better through quality software.`"
