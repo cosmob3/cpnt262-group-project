@@ -46,19 +46,18 @@
 
 The following pages
 
-- A home page
-  - A logo
-  - Navigation
-  - CTA
-  - Text Content
-  - Footer
-- At least 1 page that uses content from an api
-- A team bio/about page (dependent on your site)
-  - Cards about team members.
-- 2 other pages (services/products, contact...)
+- X A home page
+  - X A logo
+  - X Navigation
+  - X CTA
+  - X Text Content
+  - X Footer
+- X At least 1 page that uses content from an api
+- X A team bio/about page (dependent on your site)
+  - X Cards about team members.
+- X 2 other pages (services/products, contact...)
 
-  - product page: Feature Image, product overview, description,price, CTA
-  - Contact us page: number,email address, business address, contact form, google map, work hours.
+**API IDEAS:**
 
 - [OpenWeatherMap API Video](https://www.youtube.com/watch?v=InoAIgBZIEA)
 
@@ -75,34 +74,23 @@ The following pages
 - N.E.W.B (Based off the first letters of all our names)
 - N WEB (try and incorporate an N somewhere)
 
-## Attributions
-
-## TODO
-
-- What will this website be around
-  - answer
-- Content Needed
-- Style that we will follow for our pages
-- Code Structure
-- Plugins and Modules?
-
 ## Nuxt TODO
 
-- Use reusable components
-- templates use of:
-  - props
-  - slots
+- X Use reusable components
+- X templates use of:
+  - X props
+  - X slots
   - looping
-  - etc.
+  - X etc.
 - Script
-  - script syntax uses one of the valid forms consistently
+  - X script syntax uses one of the valid forms consistently
   - computed used when needed
-  - logic kept in script tags
-  - async functions used to pull data from CMS
+  - X logic kept in script tags
+  - X async functions used to pull data from CMS
 
 ## Backend and Configuration
 
-- Configuration (making sure it all works)
+- X Configuration (making sure it all works)
 
   - Nuxt
   - Modules
@@ -111,9 +99,9 @@ The following pages
 
   - Site Deployment on Netlify
 
-- File Naming Convention
+- X File Naming Convention
 
-- CMS/API integration
+- X CMS/API integration
   - storyblok or other
 
 ## Site Content
@@ -135,29 +123,33 @@ The following pages
 
 ## Component Planning
 
+**r - reusable component**
+
 - TheNavigation Bar
-- r Link Component
+
   - hover state
-  - underline (dynamic)
-- r CTA
-  - hover state on outline of button
+
+- CTA
+
 - r Hero Section (Transform)
+
   - title
   - image
   - slot for extra content
+
 - TheFooter
+
   - Company Name
   - Social (GitHub logo - linked to repo)
   - Copyrights
+
 - r Cards
   - wrappered in `<a>` tag
   - outline hover state on image
   - date
   - title
-- ~Load More (Look after everything else is done)
 - Featured article card
   - wrappered in `<a>` tag
-  - - outline hover state on card
   - section title(Featured article)
   - Article title
   - date
@@ -195,7 +187,6 @@ Blog Page
 
 ![Version 4 NuxtLinks](https://user-images.githubusercontent.com/97326786/162542281-c50b29d4-2245-438f-9027-57ef4832d75e.png)
 
-
 - But was having a hard time figuring it out, so for the sake of time I'll just do all my links as separate Nuxt links8
 - Starting on hero section
 - Was trying to make an `AppButton` for the hero section CTA but I was unable to figure out how to pass a url as a prop
@@ -225,4 +216,4 @@ Blog Page
 - Added a class of `class="h-full"` to the `app.vue` page and that seem to solve the issue
 - Added a link to the github repo of this assignment in the footer
 - Going to go through and change whatever images and text I had as a placeholder
-- Attributions added for content used
+- Attributions added for the content used
