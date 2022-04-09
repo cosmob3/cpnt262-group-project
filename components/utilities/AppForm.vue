@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-800">
-    <form action="#" method="POST">
+    <form action="https://formspree.io/f/mpzbyzjg" method="POST">
       <fieldset>
         <legend
           class="flex flex-col sm:mx-12 md:mx-64 text-white text-5xl py-20"
