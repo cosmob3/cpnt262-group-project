@@ -1,5 +1,10 @@
 # CPNT-262 / Assignment 3 - Group Assignment / Ed Adeagno, Will Tengyuan Li, Bryan Velasco
 
+## Links
+
+[GitHub Repo](https://github.com/cosmob3/cpnt262-group-project)
+[Netlify Link](#)
+
 ## Attributions
 
 - Hero Photo of Koala from the [Kent C. Dodds website](https://kentcdodds.com/)
@@ -22,19 +27,22 @@
 
 - Some titles for blog cards are lyrics from Kendrick Lamar's song 'LUST.'
 
+### Colour Scheme
+
+- Heading/Titles/Other Alt Text - `text-white` (hex:#FFFFFF)
+- Descriptions/Other Text - `text-gray-700` (hex:#374151)
+- Background - `bg-gray-800` (hex:#1F2937)
+
 ---
 
-## Links
+## PLANNING
 
-[GitHub Repo](https://github.com/cosmob3/cpnt262-group-project)
-[Netlify Link](#)
-
-## Group Charter
+### Group Charter
 
 - Commit smaller portions of code so that we can change it as needed
 - If you need to change someone's code, send a message in Slack so we can see whether or not it works for the team
 
-## Tools Used
+### Tools Used
 
 - Design: Figma Mock-up
 - Layout: Figjam Wireflow
@@ -42,7 +50,7 @@
 - CSS Framework: Tailwindcss
 - JS Frameworks: VueJS in NuxtJS (Used Nuxt-3)
 
-## Plan out our website
+### Planing out our website
 
 The following pages
 
@@ -69,12 +77,12 @@ The following pages
 
 - [News API](https://newsapi.org/docs)
 
-## Name Ideas
+**Name Ideas**
 
 - N.E.W.B (Based off the first letters of all our names)
 - N WEB (try and incorporate an N somewhere)
 
-## Nuxt TODO
+### Nuxt TODO
 
 - X Use reusable components
 - X templates use of:
@@ -88,7 +96,7 @@ The following pages
   - X logic kept in script tags
   - X async functions used to pull data from CMS
 
-## Backend and Configuration
+### Backend and Configuration
 
 - X Configuration (making sure it all works)
 
@@ -104,7 +112,7 @@ The following pages
 - X CMS/API integration
   - storyblok or other
 
-## Site Content
+### Site Content
 
 - U.X.
 
@@ -121,7 +129,7 @@ The following pages
 
 ---
 
-## Component Planning
+### Component Planning
 
 **r - reusable component**
 
@@ -160,7 +168,7 @@ About Page - Use Storyblok
 Contact Page
 Blog Page
 
-### Design
+### Roles
 
 - Figma Mock-up
   - Ed Adeagbo
@@ -173,7 +181,9 @@ Blog Page
 
 ---
 
-**Bryan**
+## Code Journal
+
+### Bryan
 
 - Trying to set the code up. Working on navigation bar and footer to add to `app.vue` page
 - Got a very basic navbar and footer but now for some reason the content on the root index.vue page and TheFooter is being displayed twice
@@ -216,35 +226,4 @@ Blog Page
 - Added a class of `class="h-full"` to the `app.vue` page and that seem to solve the issue
 - Added a link to the github repo of this assignment in the footer
 - Going to go through and change whatever images and text I had as a placeholder
-<<<<<<< HEAD
 - Attributions added for the content used
-=======
-- Attributions added for content used
-
----
-
-**Will**
-- created the index.vue under pages/about.
-- created a project named cpnt-262-group-project in Storyblok.
-- added title, subtitle, team member 1,2,3(name, picture, information), companyname, companyimage, address, email, tel as content.
-- created template and general layout on aboutpage.
-- set up script to fetch data from Storyblok.
-```javascript
-import { ref, onMounted } from "vue";
-// fetch data from storyblok
-const data = ref(null);
-onMounted(async () => {
-  data.value = await fetch(
-    "https://api.storyblok.com/v2/cdn/stories/api-content?version=draft&token=OrQeGQgBRjqxzzvELiOSFAtt&cv=1649094285"
-  )
-    .then((response) => response.json())
-    .then(({ story }) => story.content);
-});
-``` 
-- after get all the infomations.I started to style the page.
-  - I put team member's information in 3 cards. 
-  - Used grid layout on the cards.
-  - the images are different sizes, in order to make them all look same size, I warpped img in dev, set w-full, max-h-80 overflow-hidden, and set img w-full.
-  - To make the cards responsive, I set card-section ``` card-section p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 ``` 
-
->>>>>>> 06b4e76a031d4f9eec0fe15846bac8835a2b398c
