@@ -174,7 +174,7 @@ Blog Page
   - Ed Adeagbo
     - I've finished the 4 pages but for the page we want to implement the API into I'm not sure how to make it.
     - I've also made a very simple wireflow in figjam just to show parent directories
-- API
+- API, About Page
   - Will Tengyuan Li
 - Components
   - Bryan Velasco
@@ -226,3 +226,30 @@ Blog Page
 - Added a link to the github repo of this assignment in the footer
 - Going to go through and change whatever images and text I had as a placeholder
 - Attributions added for content used
+
+---
+
+**Will**
+- created the index.vue under pages/about.
+- created a project named cpnt-262-group-project in Storyblok.
+- added title, subtitle, team member 1,2,3(name, picture, information), companyname, companyimage, address, email, tel as content.
+- created template and general layout on aboutpage.
+- set up script to fetch data from Storyblok.
+```javascript
+import { ref, onMounted } from "vue";
+// fetch data from storyblok
+const data = ref(null);
+onMounted(async () => {
+  data.value = await fetch(
+    "https://api.storyblok.com/v2/cdn/stories/api-content?version=draft&token=OrQeGQgBRjqxzzvELiOSFAtt&cv=1649094285"
+  )
+    .then((response) => response.json())
+    .then(({ story }) => story.content);
+});
+``` 
+- after get all the infomations.I started to style the page.
+  - I put team member's information in 3 cards. 
+  - Used grid layout on the cards.
+  - the images are different sizes, in order to make them all look same size, I warpped img in dev, set w-full, max-h-80 overflow-hidden, and set img w-full.
+  - To make the cards responsive, I set card-section ``` card-section p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 ``` 
+
