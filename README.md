@@ -13,13 +13,13 @@
 
 - Photo of blue&white code by [ThisIsEngineering](https://www.pexels.com/photo/extreme-close-up-photo-of-codes-on-screen-3861976/) from Pexels
 
-- Photo of Code on phone&computer by [Sora Shimazaki](https://www.pexels.com/photo/unrecognizable-hacker-with-smartphone-typing-on-laptop-at-desk-5935791/) from Pexels
+- Photo of code on phone&computer by [Sora Shimazaki](https://www.pexels.com/photo/unrecognizable-hacker-with-smartphone-typing-on-laptop-at-desk-5935791/) from Pexels
 
-- Photo of Lit up Keyboard by [Anete Lusina](https://www.pexels.com/photo/crop-cyber-spy-typing-on-computer-keyboard-while-hacking-system-5240544/) from Pexels
+- Photo of lit up keyboard by [Anete Lusina](https://www.pexels.com/photo/crop-cyber-spy-typing-on-computer-keyboard-while-hacking-system-5240544/) from Pexels
 
-- Hero Photo of Skies from the [Kent C. Dodds website](https://kentcdodds.com/)
+- Hero Photo of skies from the [Kent C. Dodds website](https://kentcdodds.com/)
 
-- Photo of fingers on Keyboard by [Pavel Danilyuk](https://www.pexels.com/photo/person-in-white-long-sleeve-shirt-using-macbook-pro-5496461/) from Pexels
+- Photo of fingers on keyboard by [Pavel Danilyuk](https://www.pexels.com/photo/person-in-white-long-sleeve-shirt-using-macbook-pro-5496461/) from Pexels
 
 - Photo of Envelope by [Maksim Goncharenok](https://www.pexels.com/photo/gold-letter-y-on-black-background-5605061/) from Pexels
 
@@ -103,7 +103,7 @@ The following pages
   - Nuxt
   - Modules
 
-- Deployment
+- X Deployment
 
   - Site Deployment on Netlify
 
