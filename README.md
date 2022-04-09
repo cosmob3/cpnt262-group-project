@@ -35,7 +35,7 @@
 
 ---
 
-## PLANNING
+## _PLANNING_
 
 ### Group Charter
 
