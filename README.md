@@ -3,7 +3,7 @@
 ## Links
 
 [GitHub Repo](https://github.com/cosmob3/cpnt262-group-project)
-[Netlify Link](#)
+[Netlify Link](https://62511829d01d855b08d59bc8--neon-rugelach-f51736.netlify.app/)
 
 ## Attributions
 
