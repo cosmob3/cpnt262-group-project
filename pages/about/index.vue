@@ -21,29 +21,46 @@
         </div>
       </div>
       <!-- card-section -->
+      <div class="w-full mx-auto my-20 text-center text-white text-3xl">Team members</div>
       <div
         class="card-section p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-40 text-white"
       >
         <div class="card1 rounded overflow-hidden shadow-lg">
-          <div class="image-warpper w-full max-h-60 overflow-hidden">
-            <img class="w-full" :src="data.tm1photo.filename" alt="" />
+          <div class="image-warpper w-full max-h-80 overflow-hidden">
+            <img class="object-cover" :src="data.tm1photo.filename" alt="" />
           </div>
           <h2>{{ data.tm1name }}</h2>
           <p>{{ data.tm1info }}</p>
         </div>
         <div class="card2 rounded overflow-hidden shadow-lg">
-          <div class="image-warpper w-full max-h-60 overflow-hidden">
+          <div class="image-warpper w-full max-h-80 overflow-hidden">
             <img class="w-full" :src="data.tm2photo.filename" alt="" />
           </div>
           <h2>{{ data.tm2name }}</h2>
           <p>{{ data.tm2info }}</p>
         </div>
         <div class="card3 rounded overflow-hidden shadow-lg">
-          <div class="image-warpper w-full max-h-60 overflow-hidden">
+          <div class="image-warpper w-full max-h-80 overflow-hidden">
             <img class="w-full" :src="data.tm3photo.filename" alt="" />
           </div>
           <h2>{{ data.tm3name }}</h2>
           <p>{{ data.tm3info }}</p>
+        </div>
+      </div>
+      <!-- address cell email -->
+      <div class="w-full mx-auto mt-20 text-center text-white text-3xl">Meet Us!</div>
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-40 py-40">
+        <div class="address flex">
+          <img class="w-1/5" src="assets\images\addressimage.jpg" alt="">
+          <h1 class="text-white w-full m-auto px-8">{{data.address}}</h1>
+        </div>
+        <div class="Tel flex">
+          <img  class="w-1/5" src="assets\images\phonenumber.png" alt="">
+          <h1 class="text-white w-full m-auto px-8">{{data.tel}}</h1>
+        </div>
+        <div class="email flex">
+          <img  class="w-1/5" src="assets\images\email.png" alt="">
+          <h1 class="text-white w-full m-auto px-8">{{data.email.email}}</h1>
         </div>
       </div>
     </div>
